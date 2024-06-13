@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first1 {
+    font-size: 18.72px;
+    font-weight: bold;
+}
+
+.container {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.numbers {
+    position: absolute;
+    font-size: 30px;
+    left: 800px;
+    font-weight: bold;
+}
+
+.number {
+    margin: 0 80px;
+}
+
+.picture img {
+    width: 170px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.picture {
+    position: absolute;
+    left: 870px;
+    top: 250px;
+    cursor: pointer;
+}
+
+#result1{
+    position: absolute;
+    top: 500px;
+    font-size: 30px;
+    font-weight: bold;
+}
