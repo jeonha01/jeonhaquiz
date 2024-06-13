@@ -10,6 +10,13 @@ body {
     font-weight: bold;
 }
 
+#second2 {
+    font-size: 18.72px;
+    font-weight: bold;
+    position: absolute;
+    top: 385px;
+}
+
 .container {
     text-align: left;
     margin-bottom: 50px;
@@ -21,6 +28,14 @@ body {
     font-size: 30px;
     left: 800px;
     font-weight: bold;
+}
+
+.numberss {
+    position: absolute;
+    font-size: 30px;
+    left: -80px;
+    font-weight: bold;
+    top: 485px;
 }
 
 .number {
@@ -41,9 +56,30 @@ body {
     cursor: pointer;
 }
 
+.picturee {
+    position: absolute;
+    left: -9.5px;
+    top: 542px;
+    cursor: pointer;
+}
+
+.picturee img {
+    width: 170px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
 #result1{
     position: absolute;
     top: 500px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#result2{
+    position: absolute;
+    top: 790px;
     font-size: 30px;
     font-weight: bold;
 }
